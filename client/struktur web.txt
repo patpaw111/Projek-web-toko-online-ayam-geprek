@@ -1,0 +1,29 @@
+ayam muzaki
+
+kebutuhan
+1. 3 halaman(home, produk, about us)
+2. punya tampilan menu kategori
+3. 1 produk 1 kategori
+4. punya foto(boleh kosong klo blm ambil foto)
+5. punya status tersedia stok
+6. bisa mencari produk
+7. website terhubung ke wa untuk pemesanan
+8.  ada akun admin untuk mengatur website
+9. website menampilkan wa dan gofood
+10. responsive
+
+home page
+1. search bar
+2. high ligh produk
+3. 1 section tentang kami
+4. tampilkan makanan dan minuman dan ada tombol see more di bwh nya menuju halaman produk
+5. tampilan halaman link pemesanan via gofood dan kot=ntak whatshapp
+
+produk page
+1. secara default, halaman produk menampilkan semua menu tanpa filter
+2. produk bisa terfilter sesuai kategori yang terpilih
+3. produk menampilkan foto, nama, harga dan button menuju halaman detail produk
+
+about us page
+1. ada foto toko
+2. text tentang toko
