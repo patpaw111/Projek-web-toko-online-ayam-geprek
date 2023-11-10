@@ -1,4 +1,5 @@
 <?php
+    session_start();
     require "../koneksi.php"
 ?>
 
@@ -21,11 +22,17 @@
         height: 300px;
         box-sizing: border-box;
         border-radius: 10px;
+        background-color: white;
+    }
+    .bglgn{
+        background-image: url("../image/bg\ web\ login.png");
+        background-position: center;
+        background-size: 200vh;
     }
 </style>
 
-<body>
-    <div class="main d-flex flex-column justify-content-center align-items-center">
+<body class="bglgn">
+    <div class="bg-image main d-flex flex-column justify-content-center align-items-center">
         <div class="login-box p-5 shadow">
             <form action="" method="post">
                 <div>
@@ -37,15 +44,42 @@
                     <input type="password" class="form-control" name="password" id="password">
                 </div>
                 <div>
-                    <button class="btn btn-success form-control mt-3" type="submit" name="loginbtn">Login</button>
+                    <button class="btn btn-danger form-control mt-3" type="submit" name="loginbtn">Login</button>
                 </div>
             </form>
         </div>
 
-        <div>
+        <div class="mt-3">
             <?php
                 if(isset($_POST['loginbtn'])){
-                    echo "Disubmit";
+                    $username = htmlspecialchars($_POST['username']);
+                    $password = htmlspecialchars($_POST['password']);
+
+                    $query = mysqli_query($con, "SELECT * FROM users WHERE username='$username'");
+                    $countdata = mysqli_num_rows($query);
+                    $data = mysqli_fetch_array($query);
+                    
+                    if($countdata>0){
+                        if (password_verify($password, $data ['password'])){
+                            $_SESSION['username'] = $data['username'];
+                            $_SESSION['login'] = true;
+                            header('location: ../adminpanel');
+                        }
+                        else{
+                            ?>
+                            <div class="alert alert-warning" role="alert">
+                                Password salah
+                            </div>
+                            <?php
+                        }
+                    }
+                    else{
+                        ?>
+                        <div class="alert alert-warning" role="alert">
+                            Akun tidak ditemukan
+                        </div>
+                        <?php
+                    }
                 }
             ?>
         </div>

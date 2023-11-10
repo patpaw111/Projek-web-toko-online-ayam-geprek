@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/tugas/kuliah/dasar-dasar pemrograman/Ayam Geprek Muzaki",
-      "program": "d:/tugas/kuliah/dasar-dasar pemrograman/Ayam Geprek Muzaki/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
