@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 
@@ -28,6 +28,10 @@
         background-image: url("../image/bg\ web\ login.png");
         background-position: center;
         background-size: 200vh;
+    }
+    .login-box{
+        background: transparent;
+        backdrop-filter: blur(20px);
     }
 </style>
 
