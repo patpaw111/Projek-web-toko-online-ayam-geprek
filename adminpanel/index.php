@@ -61,7 +61,7 @@
                                 <i class="fas fa-align-justify fa-7x text-black-50"></i>
                             </div>
                             <div class="col-6 text-white">
-                                <h3 class="fs-2">kategori</h3>
+                                <h3 class="fs-2">Kategori</h3>
                                 <p class="fs-4"><?php echo $jumlahKategori; ?> Kategori</p>
                                 <a href="kategori.php" class="text-white no-decoration">lihat detail</a>
                             </div>
@@ -78,7 +78,7 @@
                             <div class="col-6 text-white">
                                 <h3 class="fs-2">Menu</h3>
                                 <p class="fs-4"><?php echo $jumlahMenu; ?> Menu</p>
-                                <a href="produk.php" class="text-white no-decoration">lihat detail</a>
+                                <a href="menu.php" class="text-white no-decoration">lihat detail</a>
                             </div>
                         </div>
                     </div>

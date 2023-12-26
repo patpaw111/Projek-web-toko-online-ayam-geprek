@@ -29,7 +29,7 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">
                     <a href="../adminpanel" class="no-decoration text-muted">
-                        <i class="fas fa-home"></i> home
+                        <i class="fas fa-home"></i> Home
                     </a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">
@@ -44,7 +44,7 @@
             <form action="" method="post">
                 <div>
                     <label for="kategori">Kategori</label>
-                    <input type="text" id="kategori" name="kategori" placeholder="input nama kategori" class="form-control">
+                    <input type="text" id="kategori" name="kategori" placeholder="input nama kategori" class="form-control" autocomplete="off">
                 </div>
                 <div class="mt-3">
                     <button class="btn btn-primary" type="submit" name="simpan_kategori">Simpan</button>
@@ -103,7 +103,7 @@
                             if($jumlahKategori==0){
                         ?>
                             <tr>
-                                <td colspan=3 class="text center">Data Kategori Tidak Tersedia</td>
+                                <td colspan=3 class="text-center">Data Kategori Tidak Tersedia</td>
                             </tr>
                         <?php
                             }

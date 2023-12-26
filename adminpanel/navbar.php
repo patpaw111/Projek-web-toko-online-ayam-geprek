@@ -6,16 +6,16 @@
         <div class="collapse navbar-collapse offcanvas-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item me-3">
-                    <a class="nav-link" href="../adminpanel">Home</a>
+                    <a class="nav-link text-white" href="../adminpanel">Home</a>
                 </li>
                 <li class="nav-item me-3">
-                    <a class="nav-link me-3" href="kategori.php">Kategori</a>
+                    <a class="nav-link me-3 text-white" href="kategori.php">Kategori</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link me-3" href="produk.php">Menu</a>
+                    <a class="nav-link me-3 text-white" href="menu.php">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-3" href="logout.php">Logout</a>
+                    <a class="nav-link me-3 text-white" href="logout.php">Logout</a>
                 </li>
             </ul>
         </div>

@@ -74,6 +74,18 @@ $data = mysqli_fetch_array($query);
             }
 
             if(isset($_POST['deleteBtn'])){
+                $queryCheck = mysqli_query($con, "SELECT * FROM menu WHERE kategori_id='$id'");
+                $dataCount = mysqli_num_rows($queryCheck);
+
+                if($dataCount>0){
+                    ?>
+                        <div class="alert alert-warning  mt-3" role="alert">
+                             Kategori tidak bisa dihapus karena sudah digunakan di menu!
+                        </div>
+                    <?php
+                    die();
+                }
+
                 $queryDelete = mysqli_query($con, "DELETE FROM kategori WHERE id='$id'");
 
                 if($queryDelete){
