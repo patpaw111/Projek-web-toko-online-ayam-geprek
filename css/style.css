@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.tbtb{
+    font-family: 'Black Han Sans', sans-serif;
+    color: #E22124;
+}
+
+.MPler{
+    font-family: 'Black Han Sans', sans-serif;
+    background-color: #E22124;
+    color: #FAD529;
+}
+
+.LN{
+    width: 100px;
+}
+
+.warna1{
+    background-color: #FAD529;
+}
+
+.warnaP{
+    background-color: white;
+}
+
+.warna2{
+    background-color: #E22124;
+}
+
+.banner{
+    height: 90vh;
+    background-color: #FAD529;
+}
+
+.highlighted-menu{
+    height: 250px;
+}
+
+.ayam-g{
+    background:url(../image/r08eOzXeTk2mF16bAT5y.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mie-geprek{
+    background:url(../image/DhYmWus4NWLWMor3HiHq.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wedang-J{
+    background:url(../image/oRtZy3kNeKR8kO6siLh3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Gambar-T {
+    width: auto; /* Let the browser automatically calculate the width */
+    max-height: 400px; /* Set the maximum height of the image */
+    display: block; /* Make sure it's a block-level element to prevent unwanted spacing */
+    margin: 0 auto; /* Center the image horizontally if needed */
+}
+
+.T-T{
+    font-family: 'Black Han Sans', sans-serif;
+    color: #E22124;
+}
+
+.F-ayam{
+    width: auto; /* Let the browser automatically calculate the width */
+    display: block; /* Make sure it's a block-level element to prevent unwanted spacing */
+    margin: 0 auto; /* Center the image horizontally if needed */
+}
+
+.randomMenu{
+    background-color: #FAD529;
+    font-family: 'Black Han Sans', sans-serif;
+    color: #E22124;
+}
+
+.list-menu{
+    margin-bottom: 10px;
+}
+
+.custom-img {
+    width: 200px;   /* Set the width to 200px */
+    height: 150px;  /* Set the height to 150px */
+    object-fit: cover;  /* Maintain the aspect ratio and cover the entire area */
+    display: block;  /* Make the image a block element */
+    margin: 0 auto;  /* Center the image horizontally */
+}
+
+.text-harga{
+    font-size: 20px;
+}
+
+.card{
+    font-family: 'Black Han Sans', sans-serif;
+    color: #E22124;
+}
+
+.content-subscribe{
+    font-family: 'Black Han Sans', sans-serif;
+    color: #FAD529;
+    background-color: #4c4c4c;
+}
+
+.content-subscribe h5{
+    color: #FAD529;
+    
+}
+
+.content-subscribe a{
+    color: white;
+}
+
+.tombol-s{
+    color: #E22124;
+}
+
+.banner-menu {
+    background: url(../asset/banercuyMenu.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px; /* Set a minimum height for the background */
+    font-family: 'Black Han Sans', sans-serif;
+    color: #E22124;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+        margin-bottom: 10px; /* Add some space below the heading for better readability */
+    }
+}
+
+.isi-l {
+    background-color: #E22124;
+    /* Remove min-height: 100vh; */
+}
+
+/* If you want to ensure that the background covers the entire viewport width, you can set the background on the body or html element */
+.menu-l, body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #E22124;
+}
+
+.list-group a{
+    text-decoration: none;
+}
+
+.f-detail {
+    text-align: center; /* Memastikan gambar berada di tengah */
+}
+
+.f-detail img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* Tampilan iPad (lebar layar 576px - 767px) */
+    .f-detail img {
+        width: 400px; /* Lebar gambar pada iPad */
+        height: 350px; /* Tinggi gambar pada iPad */
+        max-width: 100%; /* Maksimum lebar gambar */
+        max-height: 100%; /* Maksimum tinggi gambar */
+    }
+}
+
+@media (min-width: 768px) {
+    /* Tampilan desktop (lebar layar >= 768px) */
+    .f-detail img {
+        width: 500px; /* Lebar gambar pada desktop */
+        height: 450px; /* Tinggi gambar pada desktop */
+        max-width: 100%; /* Maksimum lebar gambar */
+        max-height: 100%; /* Maksimum tinggi gambar */
+    }
+}
+
+@media (max-width: 575px) {
+    /* Tampilan mobile (lebar layar < 576px) */
+    .f-detail img {
+        width: 250px; /* Lebar gambar pada mobile */
+        height: 200px; /* Tinggi gambar pada mobile */
+        max-width: 100%; /* Maksimum lebar gambar */
+        max-height: 100%; /* Maksimum tinggi gambar */
+    }
+}
